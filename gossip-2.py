@@ -104,4 +104,3 @@ for i in range(2): #爬取兩頁
             print(article_data.columns)
     # 找到上頁的網址，並更新url
     url = "https://www.ptt.cc/"+soup.select_one("a").get("href")
-#['title']['time']['author']['content']['comment']
